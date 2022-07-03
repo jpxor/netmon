@@ -27,7 +27,7 @@ func testSpeed(config Config) (SpeedTestResult, error) {
 	}
 	targets, err := serverList.FindServer([]int{})
 	if err != nil {
-		fmt.Println("error: failed to fetch server info for speedtest")
+		fmt.Println("error: failed to find a server for speedtest")
 		return result, err
 	}
 	for _, s := range targets {
