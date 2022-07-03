@@ -76,14 +76,14 @@ func pingAll(iplist []string) (map[string]bool, error) {
 		pingResults[ip] = false
 	}
 
-	wait := make(chan bool, len(iplist))
+	pingrecv := make(chan string, len(iplist))
 
 	p.OnRecv = func(addr *net.IPAddr, rtt time.Duration) {
-		pingResults[addr.String()] = true
+		pingrecv <- addr.String()
 	}
 
 	p.OnIdle = func() {
-		close(wait)
+		close(pingrecv)
 	}
 
 	err := p.Run()
@@ -92,7 +92,9 @@ func pingAll(iplist []string) (map[string]bool, error) {
 		return pingResults, err
 	}
 
-	<-wait
+	for ip := range pingrecv {
+		pingResults[ip] = true
+	}
 	return pingResults, nil
 }
 
