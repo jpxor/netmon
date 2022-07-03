@@ -49,7 +49,7 @@ func (db *InfluxDatabase) Write(database string, datum DataPoint) error {
 		datum.Time,
 	)
 	if err != nil {
-		fmt.Println("Error: failed to create InfluxDB Client: ", err.Error())
+		fmt.Println("Error: failed to create InfluxDB data point: ", err.Error())
 		return err
 	}
 	db.batches[database].AddPoint(pt)
