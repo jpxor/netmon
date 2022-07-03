@@ -49,7 +49,7 @@ func main() {
 				fmt.Println(err)
 			} else {
 				fmt.Printf("   Local Area Network: %s\n", statusString(result.Local))
-				fmt.Printf("   Internet: %s\n", statusString(result.Local))
+				fmt.Printf("   Internet: %s\n", statusString(result.Remote))
 				hasInternet = result.Remote
 
 				if db != nil {
