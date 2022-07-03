@@ -123,7 +123,7 @@ func parseArgs(config *Config) {
 			fmt.Println("Error: missing database password")
 			err = true
 		}
-		if config.Traceroute == nil && config.RemoteAP != "" {
+		if config.Traceroute != nil && config.RemoteAP != "" {
 			fmt.Println("Error: select either traceroute OR remote")
 			err = true
 		}
