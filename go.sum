@@ -4,8 +4,8 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c h1:qSHzRbhzK8RdXOsAdfDgO49TtqC1oZ+acxPrkfTxcCs=
 github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c/go.mod h1:qj24IKcXYK6Iy9ceXlo3Tc+vtHo9lIhSX5JddghvEPo=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/showwin/speedtest-go v1.5.0 h1:g+oy5HeemQ0LusWOYY1UHiasC6EsHsut76u4Hqq8alY=
-github.com/showwin/speedtest-go v1.5.0/go.mod h1:Y7c+pxzaNAlo4mYP+x83pnYY8IM3bkHGDhTdrgUnkNE=
+github.com/showwin/speedtest-go v1.5.2 h1:drXsmaGC36VXi6biSZ+vyo/tYCkaoTU2mAF2b6wQmlk=
+github.com/showwin/speedtest-go v1.5.2/go.mod h1:Y7c+pxzaNAlo4mYP+x83pnYY8IM3bkHGDhTdrgUnkNE=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/tatsushid/go-fastping v0.0.0-20160109021039-d7bb493dee3e h1:nt2877sKfojlHCTOBXbpWjBkuWKritFaGIfgQwbQUls=
