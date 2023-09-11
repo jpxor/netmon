@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c
-	github.com/showwin/speedtest-go v1.6.3
+	github.com/showwin/speedtest-go v1.6.6
 	github.com/tatsushid/go-fastping v0.0.0-20160109021039-d7bb493dee3e
 )
 
